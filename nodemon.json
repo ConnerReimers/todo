@@ -1,0 +1,7 @@
+{
+    "env": {
+        "DB_USER": "concon",
+        "DB_PASSWORD": "YR68GKFtCKe9InnU",
+        "DB_NAME": "Todo"
+    }
+}
