@@ -45,10 +45,15 @@ app.use((error, req, res, next) => {
 
 
 mongoose
-    .connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0-mtq2e.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`)
+    .connect(`mongodb+srv://concon:YR68GKFtCKe9InnU@cluster0-mtq2e.mongodb.net/Todo?retryWrites=true&w=majority`)
     .then(() => {
         console.log('Connected to database!');
-        app.listen(process.env.PORT);
+        let port = process.env.PORT;
+        if (port == null || port == "") {
+        port = 5000;
+        }
+        app.listen(port);
+        
     })
     .catch(err => {
         console.log(err)
