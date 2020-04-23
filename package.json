@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "Dependencies": {
+  "dependencies": {
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
@@ -25,4 +25,5 @@
   "devDependencies": {
     "nodemon": "^1.19.4"
   }
+  
 }

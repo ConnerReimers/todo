@@ -48,6 +48,7 @@ mongoose
     .connect(`mongodb+srv://concon:YR68GKFtCKe9InnU@cluster0-mtq2e.mongodb.net/Todo?retryWrites=true&w=majority`)
     .then(() => {
         console.log('Connected to database!');
+        console.log(process.env.port)
         let port = process.env.PORT;
         if (port == null || port == "") {
         port = 5000;
@@ -58,3 +59,5 @@ mongoose
     .catch(err => {
         console.log(err)
     });
+
+
