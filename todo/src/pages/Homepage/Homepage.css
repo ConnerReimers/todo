@@ -1,0 +1,18 @@
+.contained {
+    margin: 3rem;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.test {
+    margin: 3rem;
+}

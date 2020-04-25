@@ -1,0 +1,35 @@
+.switch-contain {
+    width: 98vw;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.switch {
+    width: 15rem;
+    height: 8rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.on {
+    background-color: #22cc88;
+    justify-content: flex-end;
+}
+
+.off {
+    justify-content: flex-start;
+    background-color: #dddddd;
+}
+
+.switch div {
+    width: 7.5rem;
+    height: 7.5rem;
+    background-color: #fff;
+    border-radius: 20rem;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.247);
+}

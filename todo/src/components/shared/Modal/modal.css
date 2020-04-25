@@ -1,0 +1,47 @@
+.modal {
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    background-color: white;
+    min-width: 80vw;
+    box-shadow: 6.9px 1px 1.5px #FFC7D5;
+    top: 27vh;
+    left: 10%;
+    border-radius: 1rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+
+    color: rgb(43, 49, 53);
+    
+}
+
+.modal-header {
+    overflow: hidden;
+    width: 100%;
+    background-color: #FFC7D5;
+    padding: 1rem .5rem;
+    color: rgb(43, 49, 53);
+}
+.modal-header h2 {
+    margin: .5rem;
+}
+
+.modal-content {
+    padding: 1rem .5rem;
+    background: transparent;
+
+}
+
+.modal-footer {
+    padding: 3rem;
+    margin-top: 26.5rem;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,238 @@
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: crimson; */
+    justify-content: center;
+    margin-top: 2rem;
+    color: rgb(43, 49, 53);
+
+
+}
+
+.form-control {
+    margin-top: 5rem;
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(43, 49, 53);
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .form-control {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .form-control {
+        width: 55vw;
+    }
+}
+
+.form-label {
+    margin-right: 4rem;
+    width: 100%;
+    color: rgb(43, 49, 53);
+
+    height: 100%;
+}
+
+.form-input {
+    border-radius: 20rem;
+    width: 30rem;
+    text-align: center;
+    text-align-last: center;
+    padding: 1rem 1rem;
+    transition: all .2s;
+    color: rgb(43, 49, 53);
+
+
+}
+
+.self-typed {
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: rgb(43, 49, 53);
+
+    width: 100vw;
+    padding-bottom: 3rem;
+    text-align: center;
+    border-bottom: 1rem dotted #C6EEEB;
+}
+
+.form-input:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+    width: 100%;
+
+    
+
+}
+
+.form-input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: var(--color-grey-light-4);
+}
+
+.btn-submit {
+    color: rgb(43, 49, 53);
+
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-family: inherit;
+    flex: 0 0 25%;
+    transition: all .1s;
+    align-self: flex-start;
+    outline: none;
+    position: absolute;
+
+}
+
+.btn-submit.Todo{
+    margin-top: 15%;
+
+}
+
+@media only screen and (min-width: 1150px) {
+    .btn-submit.Todo {
+        margin-top: 12%;
+    }
+}
+@media only screen and (min-width: 1450px) {
+    .btn-submit.Todo {
+        margin-top: 10%;
+    }
+}
+@media only screen and (min-width: 1700px) {
+    .btn-submit.Todo {
+        margin-top: 8%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .btn-submit.Todo {
+        margin-top: 18%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .btn-submit.Todo {
+        margin-top: 25%;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .btn-submit.Todo{
+        margin-top: 35%;
+    }
+}
+
+
+.btn-content {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem;
+    height: 2rem;
+
+
+}
+
+
+.btn-submit:hover {
+    cursor: pointer;
+
+    border-radius: 1rem;
+    text-align: center;
+    border: .1rem solid rgba(23, 65, 143, 0.137);
+    background-image: linear-gradient(to right, rgba(201, 220, 248, 0.342), rgba(13, 55, 117, 0.11));
+    color: rgb(45, 209, 201);
+    transform: translateY(-.4rem);
+    box-shadow: 4px 6px .5px #C2E6FB;
+
+    
+
+}
+
+
+.btn-submit:focus {
+    transform: translateY(.15rem);
+}
+
+
+.task-label {
+    width: 109%;
+}
+
+
+/* //The todo list// */
+
+.todo-item {
+    height: 100%;
+    margin-top: 5rem;
+    overflow: hidden;
+    background-color: rgba(22, 163, 156, 0.034);
+
+}
+
+.todo-urgency {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+
+}
+.todo-urgencyz {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.todo-itemz {
+    list-style: none;
+    margin: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 3rem 1rem;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.todo-itemz:hover {
+    cursor: pointer;
+    background-color: rgba(22, 163, 156, 0.034);
+    color: rgb(22, 163, 156);
+
+}
+
+.important {
+    color: red;
+}
+
+.go {
+    color: green;
+}
+
+.medium {
+    color: orange
+}
+.taskWord {
+    margin-right: 5rem;
+    margin-left: 0;
+    color: rgb(98, 211, 205);
+
+}
